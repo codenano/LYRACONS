@@ -1,0 +1,117 @@
+*, body, html {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+ input {
+     outline: none;
+}
+ body {
+     background: #a7d9d9;
+}
+ header, nav {
+     margin: 10px;
+}
+ header {
+     height: 4em;
+     padding: 10px;
+     background: #c04b82;
+}
+ header input[type=text] {
+     width: 17em;
+     height: 3.2em;
+     text-indent: 10px;
+     border: 1px solid transparent;
+}
+ nav {
+     height: 3em;
+     padding-left: 10px;
+     background: #f2a03d;
+}
+ nav ul li{
+     padding-right: 2em;
+     list-style-type: none;
+     text-transform: uppercase;
+}
+ nav ul li a{
+     cursor: pointer;
+}
+ main {
+     height: 100%;
+     min-height: 75vh;
+     margin: 0 10px 10px 10px;
+}
+ aside {
+     flex: 1;
+     background: #f33827;
+     transition: ease-in-out 1s;
+}
+ aside.active {
+     background: #25998e;
+}
+ section {
+     flex: 3;
+}
+ section .flex-row{
+}
+ section .flex-row .item {
+     flex: 1;
+     height: 15em;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: #f38c8d;
+     margin: 0px 0px 10px 10px;
+}
+ section .flex-row:last-child .item {
+     margin-bottom: 0px;
+}
+ .display-flex {
+     display: flex;
+}
+ .flex-row {
+     flex-direction: row;
+}
+ .flex-column {
+     flex-direction: column;
+}
+ .full-width {
+     width: 100%;
+}
+ .align-center{
+     align-items: center;
+}
+ .justify-center {
+     justify-content: center;
+}
+ .hide {
+     visibility: hidden;
+}
+ .to-relative {
+     position: relative;
+}
+ .to-absolute {
+     position: absolute;
+}
+ .menu {
+     top: 33px;
+     left: -32px;
+     width: 10em;
+     background: #f2a03d;
+}
+ .menu ul {
+     display: none;
+}
+ .menu ul.active {
+     display: block;
+}
+ .menu ul li{
+     width: 100%;
+     padding: 0;
+     margin-bottom: 1em;
+     text-align: center;
+}
+ .menu ul li a{
+     color: #dedada;
+     text-decoration: none;
+}
